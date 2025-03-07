@@ -1,0 +1,14 @@
+body{
+background: rgb(2,1,19);
+background: linear-gradient(90deg, rgba(2,1,19,0.9612219887955182) 0%, rgba(0,0,0,0.8519782913165266) 0%, rgba(5,0,0,1) 0%);
+color: aliceblue;
+}
+
+.img-header{
+    width: 220px;
+}
+.h-h1{
+    font-size: 47px;
+    text-align:left
+}
+
