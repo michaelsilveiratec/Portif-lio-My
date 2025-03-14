@@ -5,36 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="/css/limpar.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/My Portifólio/css/header.css">
     
 </head>
 <body>
     <header class="header">
-        <img class="img-header" src="/assets/mc.jpeg" alt="img-maic">
+        <img class="img-header" src="/My Portifólio/assets/mc.jpeg" alt="img-maic" width="250px">
         <h1 class="h-h1">Portfólio</h1>
-        <nav class="nav-header">
-            <ul class="ul-nav"> <!--Pai-->
-                <li><a href="#">Habilidades</a></li> <!--Filho-->
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Git</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-            </ul>
-        </nav>
+        
+        <div class="menu">
+            <a href="habilidades.html" class="menu-item">Habilidades</a>
+            <a href="sobre.html" img="img-header" src="/My Portifólio/assets/mc.jpeg" alt="img-maic" width="250px"  class="menu-item">Sobre Mim</a>
+            <a href="https://github.com/michaelsilveiratec?tab=repositories" class="menu-item">Git</a>
+            <a href="contato.html" class="menu-item">Contato</a>
+          </div>
+          
     </header>
     
     <main class="container">
-
-        <h3>Olá visitante!</h3>
-        <h1>Meu nome é Michael</h1>
-        <h3>Analista e desenvolvedor de sistemas</h3>
         
-        <section id="sobre">
-            <img src="#" alt="Minha foto">
-            <h5>SOBRE MIM</h5>
-            <h2>Conheça mais sobre mim</h2>
-            <p>Sou estudante de Analise e desenvolvimento de sistemas, que tem como objetivo trazer experiências envolventes aos usuários</p> este é o meu portfólio, aqui compartilho um pouco sobre minha trajetória, conhecimentos e projetos desenvolvidos ao longo do tempo.</p><p>Levo comigo experiência em Projetos com uso de HTML, CSS e JavaScript.Com uma abordagem centrada ao usuário, contendo interfaces intuitivas, atraentes e acessíveis a todos.</p>
-            
+        <section class="intro">
+            <h3>Olá, visitante!</h3>
+            <h2>Meu nome é <span class="destaque">Michael</span></h2>
+            <h3>Analista e Desenvolvedor de Sistemas</h3>
         </section>
+    
+        <section id="sobre" class="sobre">
+            <div class="sobre-conteudo">
+                <img src="#" alt="Foto de Michael" class="sobre-img">
+                <div class="sobre-texto">
+                    <h5 class="titulo-pequeno">SOBRE MIM</h5>
+                    <h2>Conheça mais sobre mim</h2>
+                    <p>Sou estudante de Análise e Desenvolvimento de Sistemas e tenho como objetivo criar experiências envolventes para os usuários.</p>
+                    <p>Este é o meu portfólio, onde compartilho minha trajetória, conhecimentos e projetos desenvolvidos ao longo do tempo.</p>
+                    <p>Tenho experiência em projetos utilizando <strong>HTML, CSS e JavaScript</strong>. Meu foco é desenvolver interfaces intuitivas, atraentes e acessíveis a todos.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
         
         <section id="projetos">
             <h2>Projetos</h2>
