@@ -1,0 +1,95 @@
+.header{
+background: black;
+
+}
+
+.h-h1{
+        display: flex;
+        color: rgb(10, 224, 10);
+        text-align: left;
+        width: 15px;
+        padding-left: 40px;
+        font-size: 50px;
+ 
+    }
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+        gap: 15px;
+        background-color: #333;
+        padding: 10px;
+      }
+      
+      .menu-item {
+        background-color: #28a745;
+        color: white;
+        padding: 15px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      .menu-item:hover {
+        background-color: #1e7e34;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .destaque {
+        color: #1e7e34;
+
+    }
+    
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: left;
+        margin-top: 40px;
+    }
+    
+    .sobre-conteudo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .sobre-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        color: #1e7e34;
+    }
+    
+    .sobre-texto {
+        max-width: 600px;
+    }
+    
+    .titulo-pequeno {
+        color: #1e7e34;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    @media (max-width: 768px) {
+        .sobre-conteudo {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    footer{
+        text-align: center;
+        margin-top: 5%;
+    }
+          
+    
+
